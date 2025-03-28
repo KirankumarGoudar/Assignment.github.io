@@ -25,13 +25,13 @@ HTML CODE🔽
 
 CSS CODE🔽
 
-body {
+body{
     margin: 0;
     font-family: cursive Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     overflow: hidden;
   }
 
-  button {
+  button{
     background-color: #e84141b9;
     color: #6c5ce7;
     padding: 10px 20px;
@@ -40,14 +40,14 @@ body {
     transition: transform 0.3s ease, background-color 0.3s ease;
   }
   
-  button:hover {
+  button:hover{
     background-color: #5ce778;
     color: #ffffff;
     transform: scale(1.1); /* Slightly enlarges the button */
   }
   
   
-  .hero {
+  .hero{
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -57,17 +57,17 @@ body {
     text-align: center;
   }
   
-  .hero-content h1 {
+  .hero-content h1{
     font-size: 4rem;
     animation: fadeIn 1.5s ease-in-out;
   }
   
-  .hero-content p {
+  .hero-content p{
     font-size: 1.5rem;
     animation: slideIn 2s ease-in-out;
   }
   
-  .cta {
+  .cta{
     margin-top: 20px;
     padding: 10px 20px;
     font-size: 1rem;
@@ -78,16 +78,16 @@ body {
     transition: transform 0.3s ease;
   }
   
-  .cta:hover {
+  .cta:hover{
     transform: scale(1.1);
   }
   
-  @keyframes fadeIn {
+  @keyframes fadeIn{
     from { opacity: 0; }
     to { opacity: 1; }
   }
   
-  @keyframes slideIn {
+  @keyframes slideIn{
     from { transform: translateY(50px); opacity: 0; }
     to { transform: translateY(0); opacity: 1; }
   }
